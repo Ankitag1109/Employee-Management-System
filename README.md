@@ -172,7 +172,11 @@ frontend/
 ├── routes
 ├── utils
 
+---
+
 ## 👩‍💻 Author
 
-**Ankita Gaikwad**
-MERN Stack Developer
+**Ankita Gaikwad**  
+MERN Stack Developer  
+
+---
