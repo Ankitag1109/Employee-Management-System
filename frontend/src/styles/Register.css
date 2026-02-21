@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page,
+.login-page *,
+.register-page,
+.register-page * {
+  font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+}
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #4f79b9 50%, #e6e6e6 50%);
+}
+
+.register-card {
+  width: 380px;
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 6px;
+  border: 2px solid #ff2f92;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #4f79b9;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #d5277b !important;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: block;
+  color: #4f79b9;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.options label {
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f79b9;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #3f65a3;
+}
+
+.extra-text {
+  font-size: 13px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.extra-text a {
+  color: #ff2f92;
+  text-decoration: none;
+}
+
+.extra-text a:hover {
+  text-decoration: underline;
+}
