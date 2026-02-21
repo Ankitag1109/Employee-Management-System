@@ -116,14 +116,14 @@ GET /api/employees?search=John&department=HR&designation=Manager
 
 ### Backend (.env)
 
-PORT=8082
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-JWT_EXPIRE=1h
+- PORT=8082
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key
+- JWT_EXPIRE=1h
 
 ### Frontend (.env)
 
-VITE_API_BASE_URL=http://localhost:8082/api
+- VITE_API_BASE_URL=http://localhost:PORT/api
 
 ---
 
