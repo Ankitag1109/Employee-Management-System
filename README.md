@@ -136,15 +136,6 @@ cd backend
 npm install
 npm run dev
 
-🌐 Application Access
-
-Frontend:
-http://localhost:5173
-
-Backend:
-http://localhost:8082
-
----
 
 ## 🔒 Security Measures
 
@@ -181,12 +172,7 @@ frontend/
 ├── routes
 ├── utils
 
----
-
 ## 👩‍💻 Author
 
 **Ankita Gaikwad**
 MERN Stack Developer
-
----
-```
